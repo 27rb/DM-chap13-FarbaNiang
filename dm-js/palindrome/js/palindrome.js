@@ -3,9 +3,10 @@ function palindrome() {
     let motMinuscule = mot.toLowerCase();
     let motInverse = motMinuscule.split("").reverse().join("");
     if (motMinuscule === motInverse) {
-        document.getElementById("resultat").textContent = mot + "est un palindrome";
+        document.getElementById("resultat").textContent = mot + " est un palindrome";
     } 
     else {
-        document.getElementById("resultat").textContent = mot + "n'est pas un palindrome";
+        document.getElementById("resultat").textContent = mot + " n'est pas un palindrome";
     }
+
 }
